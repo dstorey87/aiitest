@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+
+# Ignore data folders (if not needed in the repository)
+falcon_data/
+
+# Ignore log files
+*.log
+
+# Ignore PowerShell scripts that are local-specific
+*.ps1
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Docker intermediate/temporary files if generated
+docker-compose.override.yml
+
+# Exclude other non-project-specific files
+*.env
